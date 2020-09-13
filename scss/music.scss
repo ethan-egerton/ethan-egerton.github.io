@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 $colour1: #ff979b;
 $colour2: #ffffff;
 $colour3: #222222;
@@ -40,16 +39,11 @@ html {
 
 header {
     position: relative;
-    background-image: linear-gradient(to right, rgba(255, 151, 155, 0.7), rgba(255, 255, 255, 0.5)), url(../assets/images/hero-background.jpg);
+    background-image: url(../assets/images/websitebackground.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     height: 100vh;
-}
-
-body {
-    max-width: 100vw;
-    overflow-x: hidden;
 }
 
 .clearfix {zoom: 1;}
@@ -95,18 +89,12 @@ h3 {
     letter-spacing: 1px;
 }
 
-h2:after {
-    display: block;
-    height: 2px;
-    background-color: $colour1;
-    content: "";
-    width: 100px;
-    margin: 0 auto;
-    margin-top: 30px;
-}
-
 .row {
-    margin: 0 auto;
+    margin: 0%;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }   
 
 section {
@@ -223,81 +211,42 @@ nav {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 100%;
 
     h1, h3 {
         text-align: center;
     }
 }
 
-
 /* ---------------------------------------- */
-/* About me */
+/* Tracks */
 /* ---------------------------------------- */
 
-.section-about {
-    background-color: $colour3;
-    color: $textcolour2;
+.lmaooo {
+    transition: all 300ms ease-out;
+    filter: grayscale(100%);
 
-    p {
-        text-align: center;
-        font-size: 110%;
+    &:hover {
+        transition: all 300ms ease-out;
+        filter: grayscale(0%);
+        box-shadow: 1px 1px 0px #ff4747,
+                    2px 2px 0px #ff8a47,
+                    3px 3px 0px #ffe573,
+                    4px 4px 0px #c8ff61,
+                    5px 5px 0px #61ff9e,
+                    6px 6px 0px #61fff2,
+                    7px 7px 0px #61a5ff,
+                    8px 8px 0px #7961ff,
+                    9px 9px 0px #fa61ff;
     }
 }
 
-/* ---------------------------------------- */
-/* Skills */
-/* ---------------------------------------- */
-
-.section-skills {
-    padding-top: 2%;
-    background-color: $colour4;
-
-    h2 {
-        color: $textcolour2;
-    }
-    
-    h2:after {
-        display: block;
-        height: 2px;
-        background-color: $colour1;
-        content: " ";
-        width: 100px;
-        margin: 0 auto;
-        margin-top: 30px;
-    }
-
-    h3 {
-        color: $textcolour2;
-    }
-
-    .row {
-        padding-left: 15%;
-        padding-right: 15%;
-    }   
-}
-
-
-.skill-cols {
-    display: block;
-    margin-top: 3%;
-
-    p {
-        color: $textcolour2;
-    }
-}
-
-.skill-icon {
-    background-color: $colour3;
-    border-radius: 100%;
-    color: $colour2;
-    font-size: 65%;
-    height: 80px;
-    width: 80px;
-    border: 2px solid $colour2;
-    border-radius: 50%;
-    display: inline-block;
-    text-align: center;
-    margin-bottom: 25px;
-    margin-left: 40%;
-    padding: 5px;
-}
+.iframe-wrapper:before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, .4) inset;
+    z-index: 1;
+    height: 100%;
+  }

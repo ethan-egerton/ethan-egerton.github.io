@@ -64,7 +64,7 @@ h1 {
   margin-top: 0;
   margin-bottom: 20px;
   color: #222222;
-  font-size: 240%;
+  font-size: 500%;
   word-spacing: 4px;
   letter-spacing: 1px;
 }
@@ -253,6 +253,8 @@ nav a:hover {
 .lmaooo:hover {
   -webkit-transition: all 300ms ease-out;
   transition: all 300ms ease-out;
+  -webkit-transform: height 150%, width 150%;
+          transform: height 150%, width 150%;
   -webkit-filter: grayscale(0%);
           filter: grayscale(0%);
   -webkit-box-shadow: 1px 1px 0px #ff4747, 2px 2px 0px #ff8a47, 3px 3px 0px #ffe573, 4px 4px 0px #c8ff61, 5px 5px 0px #61ff9e, 6px 6px 0px #61fff2, 7px 7px 0px #61a5ff, 8px 8px 0px #7961ff, 9px 9px 0px #fa61ff;
@@ -268,5 +270,13 @@ nav a:hover {
           box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.4) inset;
   z-index: 1;
   height: 100%;
+}
+
+.hero-tracks .row {
+  height: 80vh;
+}
+
+.hero-tracks .h1 {
+  size: 150%;
 }
 /*# sourceMappingURL=music.css.map */

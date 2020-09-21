@@ -271,5 +271,7 @@ nav {
 /*TODO: add js to change the colours through a gradient*/
 
   .title-text {
-      background: -webkit-linear-gradient($colour1, $colour5);
-  }
+    background: -webkit-linear-gradient(red, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }

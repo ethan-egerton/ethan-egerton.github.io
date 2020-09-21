@@ -287,6 +287,8 @@ nav a:hover {
 
 /*TODO: add js to change the colours through a gradient*/
 .title-text {
-  background: -webkit-linear-gradient(#ff979b, #ffc0c2);
+  background: -webkit-linear-gradient(red, blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 /*# sourceMappingURL=music.css.map */

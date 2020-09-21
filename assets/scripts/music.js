@@ -1,0 +1,1 @@
+const titleText = document.querySelector('.')

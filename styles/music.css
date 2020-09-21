@@ -240,6 +240,11 @@ nav a:hover {
   text-align: center;
 }
 
+#center h1 {
+  font-family: 'Monoton', cursive;
+  font-size: 100px;
+}
+
 /* ---------------------------------------- */
 /* Tracks */
 /* ---------------------------------------- */
@@ -278,5 +283,10 @@ nav a:hover {
 
 .hero-tracks .h1 {
   size: 150%;
+}
+
+/*TODO: add js to change the colours through a gradient*/
+.title-text {
+  background: -webkit-linear-gradient(#ff979b, #ffc0c2);
 }
 /*# sourceMappingURL=music.css.map */

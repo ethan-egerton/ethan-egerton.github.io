@@ -216,6 +216,11 @@ nav {
     h1, h3 {
         text-align: center;
     }
+
+    h1 {
+        font-family: 'Monoton', cursive;
+        font-size: 100px;
+    }
 }
 
 /* ---------------------------------------- */
@@ -261,4 +266,10 @@ nav {
       .h1 {
           size: 150%;
       }
+  }
+
+/*TODO: add js to change the colours through a gradient*/
+
+  .title-text {
+      background: -webkit-linear-gradient($colour1, $colour5);
   }

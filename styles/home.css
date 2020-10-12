@@ -1,4 +1,4 @@
-f* {
+* {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -262,7 +262,8 @@ nav a:hover {
 /* Skills */
 /* ---------------------------------------- */
 .section-skills {
-  padding-top: 2%;
+  padding-top: 3%;
+  padding-bottom: 2%;
   background-color: #2e2e2e;
 }
 
@@ -313,5 +314,42 @@ nav a:hover {
   margin-bottom: 25px;
   margin-left: 40%;
   padding: 5px;
+}
+
+/* ---------------------------------------- */
+/* Tools */
+/* ---------------------------------------- */
+.section-tools {
+  padding-top: 3%;
+  background: #222222 !important;
+}
+
+.section-tools h2 {
+  color: #ffffff;
+}
+
+.section-tools h2:after {
+  display: block;
+  height: 2px;
+  background-color: #ff979b;
+  content: " ";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.section-tools h3 {
+  color: #ffffff;
+}
+
+.section-tools p {
+  padding-top: 1%;
+  color: #ffffff;
+  text-align: center;
+}
+
+.section-tools .row {
+  padding-left: 15%;
+  padding-right: 15%;
 }
 /*# sourceMappingURL=home.css.map */

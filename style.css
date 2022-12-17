@@ -1,0 +1,26 @@
+* {
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #D8E9A8;
+    text-shadow: 5px 5px #1E5128;
+    background-color: #191A19;
+}
+
+*:link, *:visited, *:active { text-decoration: none; }
+
+div {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+div h1 {
+    transform: translateY(900%);
+}
+
+div h3 {
+    transform: translateY(1500%);
+}
